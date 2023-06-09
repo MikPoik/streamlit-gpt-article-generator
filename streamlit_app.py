@@ -37,7 +37,7 @@ def main():
 
     option_tone = st.selectbox(
     'Tone of the article?',
-    ('Informative, engaging, convey emotion','Informative, engaging','Informative','Conversational','Conversational, 50% spartan'))
+    ('Informative, engaging, convey emotion','Informative, convey emotion','Informative, engaging','Informative','Conversational','Conversational, 50% spartan'))
 
     option_structure = st.selectbox(
     'Article structure?',
@@ -86,7 +86,7 @@ with st.sidebar:
     st.write("\n")
     st.write("\n")
 
-    st.write("Github: [streamlit app](https://github.com/MikPoik/steamship-gpt-article-generator.git)")
+    st.write("Github: [streamlit app](https://github.com/MikPoik/streamlit-gpt-article-generator.git)")
     st.write("Github: [steamship api](https://github.com/MikPoik/steamship-gpt-article-generator.git)")
     st.write("\n")
     st.write("\n")
